@@ -1,7 +1,7 @@
 public class QuizException {
     public static void main(String[] args) throws InterruptedException {
         pause1();
-        pause2();
+        pause2();//compile error if not throws exception
     }
     public static void pause1(){
         try {
